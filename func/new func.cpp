@@ -1,5 +1,6 @@
 #include <iostream>
-
+#include <cstdlib>
+#include <time.h>
 /*
 int SmallLarge(float a, float b)
 {
@@ -44,6 +45,7 @@ int main()
 }
 */
 
+/*
 float SmallLarage(float a, float b, float c)
 {
 	if ((a < b) && (a < c))
@@ -77,3 +79,74 @@ int main()
 	getchar();
 	system("pause");
 }
+*/
+
+
+int randRange(int start, int end)
+{
+	srand(time(0));
+	return rand() % (end - start + 1) + start;
+}
+
+
+
+int solveBattle(int playermove, int computer)
+{
+	if (playermove == computer)
+	{
+		return 0;
+	}
+	if (playermove = 1, computer = 2)
+	{
+		return -1;
+	}
+	if (playermove = 2, computer = 2)
+	{
+		return -1;
+	}
+	if (playermove = 3, computer = 2)
+	{
+		return -1;
+	}
+	if (playermove = 1, computer = 2)
+	{
+		return -1;
+	}
+	if (playermove = 2, computer = 2)
+	{
+		return -1;
+	}
+	if (playermove = 3, computer = 2)
+	{
+		return -1;
+	}
+
+
+
+
+
+
+
+
+
+
+
+}
+//int solveBattle(int player, int computer);
+//void printAction(int action);
+//int inputAction();
+
+int main()
+{
+	int PlayerMove;
+	printf("Your playing rock paper scissers against a cpu, /n enter a number between 1-3, 1 is rock, 2 is paper, 3 is scissers.");
+	scanf_s("%d", &PlayerMove);
+	getchar();
+
+
+//	int computer = randRange;
+}
+
+
+
+
