@@ -1,7 +1,7 @@
 #pragma once
 
 
-#include "Header.h"
+#include "Zombie.h"
 
 class GameState
 {
@@ -17,7 +17,7 @@ public:
 	void drawStatus() const;
 	void drawRound() const;
 	bool isGameOver() const;
-
+	void drawWinner() const;
 
 
 

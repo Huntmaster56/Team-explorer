@@ -1,5 +1,5 @@
 #include <cstdio>
-#include "Header.h"
+#include "Zombie.h"
 #include <cstdlib>
 #include "GameState.h"
 void main()
@@ -34,10 +34,11 @@ void main()
 	gs.start();
 	while (!gs.isGameOver())
 	{
-		gs.update();
+	gs.update();
 		gs.drawRound();
 	}
-	
+	gs.drawWinner();
+	getchar();
 	
 
 

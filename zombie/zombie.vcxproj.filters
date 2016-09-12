@@ -26,10 +26,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Header.h">
+    <ClInclude Include="GameState.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="GameState.h">
+    <ClInclude Include="Zombie.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
